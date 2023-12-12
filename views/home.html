@@ -1,0 +1,12 @@
+<section id="splash-page" class="min-height">
+    <div class="blurred d-flex flex-column justify-content-center align-items-center"> 
+        <h1 class="display-1 text-center fw-bold">Montgomery County's Best</h1>
+        <ul class="d-lg-block d-none">
+            <li ng-repeat="a in announcements | orderBy:['text', 'priority'] | limitTo:3" class="fs-4">{{a.text}}<span class="sep">{{$last ? '' : '-' }}</span></li>
+        </ul>
+        <ul class="d-md-none d-block container">
+            <li ng-repeat="a in announcements | orderBy:['text', 'priority'] | limitTo:3" class="fs-4 d-block text-center">{{a.text}}</li>
+        </ul>
+        <a ng-href="/menu">Menu</a>
+    </div>
+</section>

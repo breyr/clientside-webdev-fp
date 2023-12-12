@@ -1,0 +1,18 @@
+[
+    {
+        "text": "ice cold beer",
+        "priority": 1
+    },
+    {
+        "text": "now serving gluten free & whole wheat pizza",
+        "priority": 2
+    },
+    {
+        "text": "large variety, available by the slice",
+        "priority": 3
+    },
+    {
+        "text": "corporate deliveries",
+        "priority": 4
+    }
+]

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Caveat:wght@700&family=Poppins:wght@300;400;500;700&display=swap');
+* {
+    font-family: 'Arvo', serif;
+}
+.min-height {
+    height: 80vh;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+/* NAV STYLES */
+nav {
+    overflow: hidden;
+    position: absolute;
+}
+.nav-link {
+    font-size: 1.25rem;
+}
+nav ul li {
+    border-bottom: 1px solid white;
+}
+nav ul li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+.active {
+    font-weight: bold;
+}
+/* END NAV STYLES */
+
+/* HOME PAGE STYLES */
+/* https://unsplash.com/photos/person-holding-plate-with-pizza-Zt2wk2OYS9w */
+#splash-page {
+    margin: 0;
+    padding: 0;
+    background: url('../images/splash.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+.blurred {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.blurred a {
+    padding: 12px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-top: 0.75rem;
+}
+.blurred a:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+}
+ul li {
+    display: inline-block;
+    color: rgba(255,255,255,0.85);
+}
+.sep {
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/* END HOME PAGE STYLES */
+
+/* MENU STYLES */
+.menu-item {
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+/* END MENU STYLES */
+
+/* ORDER STYLES */
+label span {
+    color: red;
+}
+.order-summary ul li {
+    color: black;
+    display: block;
+}
+/* END ORDER STYLES */
+
+/* FOOTER STYLES */
+#footer {
+    height: 9vh;
+}
+footer {
+    height: 100%;
+}
+.social-icons {
+    margin-top: 10px;
+}
+/* END FOOTER STYLES */

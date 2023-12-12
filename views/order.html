@@ -1,0 +1,84 @@
+<div class="container">
+    <h1 class="text-center display-3">Order</h1>
+    <div class="row">
+        <div class="col-md-8">
+            <form ng-submit="submitOrder()" class="row g-3" name="orderForm" id="orderForm">
+                <!-- User Info -->
+                <div class="col-md-4">
+                    <label for="username" class="form-label">Username <span>*</span></label>
+                    <input type="text" id="username" ng-model="order.username" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="email" class="form-label">Email <span>*</span></label>
+                    <input type="text" id="email" ng-model="order.email" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="phonenumber" class="form-label">Phone Number <span>*</span></label>
+                    <input type="text" id="phonenumber" ng-model="order.phonenumber" class="form-control" required>
+                </div>
+
+                <!-- Pizza Base -->
+                <div class="col-md-4">
+                    <label for="pizzabase" class="form-label">Pizza Base <span>*</span></label>
+                    <select id="pizzabase" ng-model="order.pizzabase" class="form-select" ng-change="updateTotalCost()" required>
+                        <option value="Plain">Plain</option>
+                        <option value="Gluten Free">Gluten Free</option>
+                        <option value="White">White</option>
+                    </select>
+                </div>
+
+                <!-- Pizza Toppings -->
+                <div class="col-md-8">
+                    <label class="form-label">Toppings</label>
+                    <div ng-repeat="topping in toppings">
+                        <input type="checkbox" ng-model="order.toppings[topping]" class="form-check-input" id="{{topping}}" ng-change="updateToppings(topping)">
+                        <label for="{{topping}}" class="form-check-label">{{topping}}</label>
+                    </div>
+                </div>
+
+                <!-- Notes -->
+                <div class="col-12">
+                    <label for="ordernotes" class="form-label">Notes</label>
+                    <textarea id="ordernotes" ng-model="order.notes" class="form-control"></textarea>
+                </div>
+
+                <!-- Payment Information -->
+                <div class="col-md-4">
+                    <label for="creditcard" class="form-label">Credit Card <span>*</span></label>
+                    <input type="text" id="creditcard" ng-model="order.creditcard" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="expdate" class="form-label">Exp Date <span>*</span></label>
+                    <input type="text" id="expdate" ng-model="order.expdate" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="cvv" class="form-label">CVV <span>*</span></label>
+                    <input type="text" id="cvv" ng-model="order.cvv" class="form-control" required>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit Order</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <div class="order-summary mt-4">
+                <h3>Order Summary</h3>
+                <ul>
+                    <li><strong>Email:</strong> {{ order.email }}</li>
+                    <li><strong>Phone Number:</strong> {{ order.phonenumber }}</li>
+                    <!-- only show pricing if a pizzabase is selected -->
+                    <li><strong>Pizza Base:</strong> {{ order.pizzabase }} <span ng-show="order.pizzabase != ''" class="fst-italic">({{ prices[order.pizzabase] | currency }})</span></li>
+                    <li><strong>Toppings:</strong>
+                        <ul>
+                            <li ng-repeat="(topping, selected) in order.toppings" ng-show="selected">{{ topping }} <span class="fst-italic">(+{{ prices.topping | currency }})</span></li>
+                        </ul>
+                    </li>
+                    <li><strong>Notes:</strong> {{ order.notes }}</li>
+                    <li><strong>Total Cost:</strong> {{ totalCost | currency }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>  
+</div>

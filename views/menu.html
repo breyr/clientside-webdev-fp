@@ -1,0 +1,24 @@
+<div class="container min-height">
+    <h1 class="text-center display-3">Menu</h1>
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="mb-3">
+                <label for="searchBox" class="form-label" ng-model="search">Search:</label>
+                <input type="text" placeholder="Search by name, ingredients, etc." class="form-control" ng-model="searchQuery"/>
+            </div>
+            
+            <div class="mb-3">
+                <label for="selectBox" class="form-label">Select:</label>
+                <select class="form-select" id="selectBox" ng-model="selectedCategory">
+                    <option value="">All categories</option>
+                    <option class="button button-primary" ng-repeat="c in categories" value="{{c}}">{{c}}</option>
+                </select>
+            </div>
+      </div>
+    <section style="overflow-y: scroll; height: 50vh">
+        <div class="menu-item" ng-repeat="item in menu | filter:searchQuery | filter:{ category: selectedCategory }">
+            <h4>{{ item.name }} <span class="fst-italic">({{ item.price | currency}})</span></h4>
+            <span ng-repeat="i in item.details">{{ i }}<span>{{$last ? '' : ' - ' }}</span></span>
+        </div>
+    </section>
+</div>

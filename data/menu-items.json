@@ -1,0 +1,881 @@
+[
+  {
+    "name": "Plain",
+    "price": 20.75,
+    "category": "Pizza",
+    "details": []
+  },
+  {
+    "name": "Tomato Pie",
+    "price": 20.75,
+    "category": "Pizza",
+    "details": []
+  },
+  {
+    "name": "12' Gluten Free Pizza",
+    "price": 20.75,
+    "category": "Pizza",
+    "details": []
+  },
+  {
+    "name": "White",
+    "price": 24.5,
+    "category": "Pizza",
+    "details": [
+      "Garlic",
+      "Extra Mozzarella"
+    ]
+  },
+  {
+    "name": "Boardwalk",
+    "price": 29.95,
+    "category": "Pizza",
+    "details": []
+  },
+  {
+    "name": "Sicilian",
+    "price": 29.95,
+    "category": "Square Pies",
+    "details": []
+  },
+  {
+    "name": "Square Tomato",
+    "price": 29.95,
+    "category": "Square Pies",
+    "details": []
+  },
+  {
+    "name": "Grandma Pizza",
+    "price": 34.9,
+    "category": "Square Pies",
+    "details": [
+      "Thin Square",
+      "Fresh Mozzarella",
+      "Plum Tomatoes"
+    ]
+  },
+  {
+    "name": "Brooklyn Style",
+    "price": 44.95,
+    "category": "Square Pies",
+    "details": []
+  },
+  {
+    "name": "Sicilian Special",
+    "price": 44.95,
+    "category": "Square Pies",
+    "details": []
+  },
+  {
+    "name": "Capri",
+    "price": 44.95,
+    "category": "Square Pies",
+    "details": [
+      "White",
+      "Broccoli",
+      "Spinach",
+      "Tomatoes"
+    ]
+  },
+  {
+    "name": "Chicken Jalapeno",
+    "price": 55.95,
+    "category": "Square Pies",
+    "details": []
+  },
+  {
+    "name": "Each Extra Topping",
+    "price": 3.75,
+    "category": "Square Pies",
+    "details": []
+  },
+  {
+    "name": "Steak Stromboli",
+    "price": 14.95,
+    "category": "Strombolis",
+    "details": [
+      "Steak",
+      "Sauce",
+      "Fresh Mozzarella"
+    ]
+  },
+  {
+    "name": "Veggie",
+    "price": 14.95,
+    "category": "Strombolis",
+    "details": [
+      "Broccoli",
+      "Tomato",
+      "Mushrooms",
+      "Spinach",
+      "Green Peppers",
+      "Onions"
+    ]
+  },
+  {
+    "name": "Calzone",
+    "price": 14.95,
+    "category": "Strombolis",
+    "details": [
+      "Ham",
+      "Ricotta",
+      "Mozzarella Cheese"
+    ]
+  },
+  {
+    "name": "Pizza Turnover",
+    "price": 14.95,
+    "category": "Strombolis",
+    "details": [
+      "Mozzarella",
+      "Sauce"
+    ]
+  },
+  {
+    "name": "Buffalo Stromboli",
+    "price": 14.95,
+    "category": "Strombolis",
+    "details": []
+  },
+  {
+    "name": "Italian Meat Stromboli",
+    "price": 14.95,
+    "category": "Strombolis",
+    "details": [
+      "Pepperoni",
+      "Salami",
+      "Ham",
+      "Capicola",
+      "Provolone",
+      "Mozzarella"
+    ]
+  },
+  {
+    "name": "Chicken Cacciatore",
+    "price": 14.95,
+    "category": "Strombolis",
+    "details": [
+      "Grilled Chicken",
+      "Mushrooms",
+      "Onions",
+      "Hot Peppers",
+      "Sauce",
+      "Mozzarella"
+    ]
+  },
+  {
+    "name": "Steak",
+    "price": 12.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Cheese Steak",
+    "price": 13.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Chicken Cheese Steak",
+    "price": 13.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Cheese Steak Hoagie",
+    "price": 14.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Mushroom Cheese Steak",
+    "price": 14.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Pepperoni Cheese Steak",
+    "price": 14.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Pizza Steak",
+    "price": 14.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Buffalo Chicken Cheese Steak",
+    "price": 14.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Cheese Steak Special 'Works'",
+    "price": 15.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Cheese Steak on Garlic Bread",
+    "price": 15.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Add Bruschetta - It's Amazing!",
+    "price": 16.95,
+    "category": "Steak Sandwiches",
+    "details": []
+  },
+  {
+    "name": "Meatball or Sausage Sandwich",
+    "price": 13.95,
+    "category": "South Philly Favorites",
+    "details": []
+  },
+  {
+    "name": "Meatball Parmigiana",
+    "price": 14.95,
+    "category": "South Philly Favorites",
+    "details": []
+  },
+  {
+    "name": "Veggie Grinder",
+    "price": 14.95,
+    "category": "South Philly Favorites",
+    "details": [
+      "Broccoli",
+      "Tomato",
+      "Spinach",
+      "Green Peppers",
+      "Mushrooms",
+      "Onions",
+      "Sauce",
+      "Mozzarella"
+    ]
+  },
+  {
+    "name": "Grilled Chicken Sandwich",
+    "price": 14.95,
+    "category": "South Philly Favorites",
+    "details": []
+  },
+  {
+    "name": "Roast Pork Sandwich",
+    "price": 16.95,
+    "category": "South Philly Favorites",
+    "details": [
+      "Sharp Provolone",
+      "Broccoli Rabe",
+      "Spinach",
+      "Roasted Peppers",
+      "BBQ"
+    ]
+  },
+  {
+    "name": "Chicken Parmigiana",
+    "price": 14.95,
+    "category": "South Philly Favorites",
+    "details": []
+  },
+  {
+    "name": "Eggplant Parmigiana",
+    "price": 14.95,
+    "category": "South Philly Favorites",
+    "details": []
+  },
+  {
+    "name": "Crispy Chicken Bacon Ranch",
+    "price": 14.95,
+    "category": "South Philly Favorites",
+    "details": []
+  },
+  {
+    "name": "Fried Chicken, Lettuce, Tomato, Mayo",
+    "price": 15.95,
+    "category": "South Philly Favorites",
+    "details": []
+  },
+  {
+    "name": "Chicken Honey Mustard Bacon",
+    "price": 15.95,
+    "category": "South Philly Favorites",
+    "details": [
+      "Provolone"
+    ]
+  },
+  {
+    "name": "Chicken Florentine",
+    "price": 15.95,
+    "category": "South Philly Favorites",
+    "details": [
+      "Spinach",
+      "Roasted Pepper",
+      "Provolone"
+    ]
+  },
+  {
+    "name": "Fresco Chicken",
+    "price": 15.95,
+    "category": "South Philly Favorites",
+    "details": [
+      "Fresh Mozzarella",
+      "Tomato",
+      "Avocado"
+    ]
+  },
+  {
+    "name": "Chicken Caprese Sandwich",
+    "price": 15.95,
+    "category": "South Philly Favorites",
+    "details": []
+  },
+  {
+    "name": "Chicken Broccoli Rabe",
+    "price": 16.95,
+    "category": "South Philly Favorites",
+    "details": [
+      "Sharp Provolone"
+    ]
+  },
+  {
+    "name": "Veggie",
+    "price": 13.95,
+    "category": "Hoagies",
+    "details": []
+  },
+  {
+    "name": "Italian",
+    "price": 13.95,
+    "category": "Hoagies",
+    "details": []
+  },
+  {
+    "name": "Ham",
+    "price": 13.95,
+    "category": "Hoagies",
+    "details": []
+  },
+  {
+    "name": "Cheese",
+    "price": 13.95,
+    "category": "Hoagies",
+    "details": []
+  },
+  {
+    "name": "Capicollo",
+    "price": 13.95,
+    "category": "Hoagies",
+    "details": []
+  },
+  {
+    "name": "Tuna",
+    "price": 13.95,
+    "category": "Hoagies",
+    "details": []
+  },
+  {
+    "name": "Turkey",
+    "price": 13.95,
+    "category": "Hoagies",
+    "details": [
+      "Fresh Carved Turkey"
+    ]
+  },
+  {
+    "name": "Each Extra Topping",
+    "price": 1.0,
+    "category": "Hoagies",
+    "details": []
+  },
+  {
+    "name": "Any Grinder",
+    "price": 1.0,
+    "category": "Hoagies",
+    "details": []
+  },
+  {
+    "name": "Cheese Steak Wrap",
+    "price": 14.95,
+    "category": "Wraps",
+    "details": [
+      "Wheat",
+      "Plain"
+    ]
+  },
+  {
+    "name": "Veggie Wrap",
+    "price": 14.95,
+    "category": "Wraps",
+    "details": [
+      "Cold",
+      "Grilled"
+    ]
+  },
+  {
+    "name": "Turkey Club Wrap",
+    "price": 14.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Chicken Caesar Wrap",
+    "price": 14.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Buffalo Chicken Wrap",
+    "price": 14.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "BBQ Chicken Wrap",
+    "price": 14.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Chicken Honey Mustard Wrap",
+    "price": 15.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Chicken Ranch Wrap",
+    "price": 15.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Chicken Roasted Pepper Wrap",
+    "price": 15.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Chicken Parmigiana Wrap",
+    "price": 15.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Chicken Caprese",
+    "price": 15.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Chicken Florentine Wrap",
+    "price": 15.95,
+    "category": "Wraps",
+    "details": [
+      "Spinach",
+      "Roasted Pepper",
+      "Provolone"
+    ]
+  },
+  {
+    "name": "Chicken Italiano",
+    "price": 15.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Chicken Fresco",
+    "price": 15.95,
+    "category": "Wraps",
+    "details": []
+  },
+  {
+    "name": "Garlic Bread",
+    "price": 5.5,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "French Fries",
+    "price": 5.5,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Curly Fries",
+    "price": 8.5,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Cheese Fries",
+    "price": 7.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Pizza Fries",
+    "price": 7.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Buffalo Fries",
+    "price": 7.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Beer Battered Onion Rings",
+    "price": 8.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Bacon Cheddar Fries",
+    "price": 8.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Mozzarella Sticks",
+    "price": 7.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Broccoli Bites",
+    "price": 8.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Sauteed Broccoli or Spinach",
+    "price": 9.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Tyson Chicken Fingers w/Fries",
+    "price": 10.95,
+    "category": "Side Orders",
+    "details": []
+  },
+  {
+    "name": "Boneless Wings",
+    "price": 16.95,
+    "category": "Side Orders",
+    "details": [
+      "Hot",
+      "BBQ"
+    ]
+  },
+  {
+    "name": 10,
+    "price": 16.95,
+    "category": "Wings",
+    "details": []
+  },
+  {
+    "name": 20,
+    "price": 33.9,
+    "category": "Wings",
+    "details": []
+  },
+  {
+    "name": 30,
+    "price": 50.0,
+    "category": "Wings",
+    "details": []
+  },
+  {
+    "name": 40,
+    "price": 67.8,
+    "category": "Wings",
+    "details": []
+  },
+  {
+    "name": 50,
+    "price": 84.75,
+    "category": "Wings",
+    "details": []
+  },
+  {
+    "name": "Spaghetti w/Sauce",
+    "price": 12.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Gnocchi",
+    "price": 15.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Spaghetti w/Mushrooms",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Spaghetti w/Meatballs",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Spaghetti w/Sausage",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Ravioli (Cheese)",
+    "price": 13.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Baked Ziti",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Lasagna (Veggie or Meat)",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Spaghetti Clam Sauce",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Penne Alla Vodka",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Gnocchi Meatballs/Sausage",
+    "price": 22.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Chicken Broccoli Alfredo",
+    "price": 23.95,
+    "category": "Homemade Pastas",
+    "details": []
+  },
+  {
+    "name": "Shrimp Scampi",
+    "price": 28.95,
+    "category": "Homemade Pastas",
+    "details": [
+      "Penne",
+      "Spaghetti"
+    ]
+  },
+  {
+    "name": "Chicken Parmigiana Platter",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": [
+      "Penne",
+      "Spaghetti"
+    ]
+  },
+  {
+    "name": "Eggplant Parmigiana Platter",
+    "price": 18.95,
+    "category": "Homemade Pastas",
+    "details": [
+      "Penne",
+      "Spaghetti"
+    ]
+  },
+  {
+    "name": "Chicken Marsala",
+    "price": 23.95,
+    "category": "Homemade Pastas",
+    "details": [
+      "Penne",
+      "Spaghetti"
+    ]
+  },
+  {
+    "name": "Chicken Piccata Lemon Butter",
+    "price": 23.95,
+    "category": "Homemade Pastas",
+    "details": [
+      "Penne",
+      "Spaghetti"
+    ]
+  },
+  {
+    "name": "Chicken Francese",
+    "price": 23.95,
+    "category": "Homemade Pastas",
+    "details": [
+      "Penne",
+      "Spaghetti"
+    ]
+  },
+  {
+    "name": "Chicken Piccata",
+    "price": 23.95,
+    "category": "Homemade Pastas",
+    "details": [
+      "Penne",
+      "Spaghetti"
+    ]
+  },
+  {
+    "name": "Chicken Penne Vodka",
+    "price": 23.95,
+    "category": "Homemade Pastas",
+    "details": [
+      "Penne",
+      "Spaghetti"
+    ]
+  },
+  {
+    "name": "House Salad",
+    "price": 9.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Caesar Salad",
+    "price": 10.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Greek Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Spinach Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Tuna Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Caprese Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": [
+      "Fresh Mozzarella",
+      "Tomatoes",
+      "Roasted Peppers",
+      "Artichoke"
+    ]
+  },
+  {
+    "name": "Antipasto",
+    "price": 17.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Chef Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Chop Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": [
+      "Chicken",
+      "Chef"
+    ]
+  },
+  {
+    "name": "Grilled Veggie Salad",
+    "price": 17.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Cheese Steak Salad",
+    "price": 18.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Greek Salad w/ Chicken",
+    "price": 18.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Buffalo Chicken Cheese Steak Salad",
+    "price": 18.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Nancy\u2019s Salad",
+    "price": 18.95,
+    "category": "Salad",
+    "details": [
+      "Grilled Chicken",
+      "Sauteed Mushrooms",
+      "Onions",
+      "Sweet Peppers",
+      "Melted Mozzarella over Greens"
+    ]
+  },
+  {
+    "name": "Chicken Bruschetta Salad",
+    "price": 18.95,
+    "category": "Salad",
+    "details": []
+  },
+  {
+    "name": "Chicken Vegetable Salad",
+    "price": 18.95,
+    "category": "Salad",
+    "details": [
+      "Chicken and Sauteed Vegetables Over Greens"
+    ]
+  },
+  {
+    "name": "Crispy Chicken Salad",
+    "price": 18.95,
+    "category": "Salad",
+    "details": [
+      "Regular",
+      "Buffalo"
+    ]
+  }
+]
