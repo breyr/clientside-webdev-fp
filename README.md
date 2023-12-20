@@ -1,4 +1,4 @@
-# Project Name
+# CS206 Final Project
 Client Side Web Development Final Project - AngularJS
 Redesign of [Maple Glen Pizza](http://mapleglenpizza.com/)
 
